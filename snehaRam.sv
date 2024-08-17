@@ -113,11 +113,10 @@ endfunction
 function void ST(input [18:0] addr,x);
 memory[addr] = x;
 endfunction
+endmodule
 
 // custom instructions
 
-
-endmodule
 
 module tb;
 logic [18:0] r1,r2,r3,addr,PC;
